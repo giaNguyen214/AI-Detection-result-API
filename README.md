@@ -12,8 +12,9 @@ npm install
 Chạy server:
 ```bash
 node index.js
-Server chạy tại http://localhost:3000
 ```
+Server chạy tại http://localhost:3000
+
 
 Chạy unit tests:
 ```bash
