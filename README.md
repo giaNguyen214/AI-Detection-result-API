@@ -48,6 +48,3 @@ Chạy test bằng: node --test
 ├── package.json  
 ├── package-lock.json  
 └── node_modules/
-
-## Ghi chú
-Cache TTL mặc định: 5 phút. Có thể thay Map bằng Redis cho production. Đây chỉ là project demo, không gọi model AI thật.
