@@ -3,17 +3,22 @@
 Một project Node.js nhỏ để mô phỏng API phát hiện câu trả lời là Human hay AI bằng nhiều model với cơ chế fallback và cache. Repo này có thể chạy server trực tiếp hoặc chạy unit test.
 
 ## Cách chạy
-Clone repo:
+```bash
 git clone https://github.com/giaNguyen214/AI-Detection-result-API.git
 cd AI-Detection-result-API
 npm install
+```
 
 Chạy server:
+```bash
 node index.js
 Server chạy tại http://localhost:3000
+```
 
 Chạy unit tests:
+```bash
 node --test
+```
 
 ## API Endpoints
 GET / → trả về "hello" để kiểm tra server.  
